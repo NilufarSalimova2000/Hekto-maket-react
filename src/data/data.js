@@ -1,5 +1,10 @@
 import imag1 from "../assets/fea_product1.png";
 import Imag1 from "../assets/lea_product1.png";
+import Imag2 from "../assets/lea_product2.png";
+import Imag3 from "../assets/lea_product3.png";
+import Imag4 from "../assets/lea_product4.png";
+import Imag5 from "../assets/lea_product5.png";
+import Imag6 from "../assets/lea_product6.png";
 import icon1 from "../assets/service1.svg";
 import icon2 from "../assets/service2.svg";
 import icon3 from "../assets/service3.svg";
@@ -45,35 +50,35 @@ export const leaProducts = [
         id: 1
     },
     {
-        img: Imag1,
+        img: Imag2,
         title: `Comfort Handy Craft`,
         count: `$42.00`,
         sale: `$65.00`,
         id: 2
     },
     {
-        img: Imag1,
+        img: Imag3,
         title: `Comfort Handy Craft`,
         count: `$42.00`,
         sale: `$65.00`,
         id: 3
     },
     {
-        img: Imag1,
+        img: Imag4,
         title: `Comfort Handy Craft`,
         count: `$42.00`,
         sale: `$65.00`,
         id: 4
     },
     {
-        img: Imag1,
+        img: Imag5,
         title: `Comfort Handy Craft`,
         count: `$42.00`,
         sale: `$65.00`,
         id: 5
     },
     {
-        img: Imag1,
+        img: Imag6,
         title: `Comfort Handy Craft`,
         count: `$42.00`,
         sale: `$65.00`,

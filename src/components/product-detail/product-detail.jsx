@@ -2,10 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { leaProducts } from "../../data/data";
 import Star from "../../assets/star.svg";
+import { NotFound } from "../not-found";
 
 export const ProductDetail = () => {
     const { id } = useParams();
     const product = leaProducts.find((item) => item.id == parseInt(id));
+
+    if (!product) {
+        return <NotFound />;
+    }
+
 
     return (
         <div>
